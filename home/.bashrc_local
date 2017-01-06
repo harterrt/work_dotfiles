@@ -2,10 +2,14 @@ alias scan='sudo iwlist wlp4s0 scan'
 synclient VertEdgeScroll=0
 synclient MaxTapTime=0
 
+# Adjust Kengsington Mouse settings
+KID='Kensington      Kensington Expert Mouse'
 # Assign Kingston buttons actions
 # ID = Device ID
 # LL, UL, LR, UR = Upper/Lower Left/Right button
 # SC = Scroll wheel
 # ?? = I don't know where these buttons are...
-#                     ID LL UL LR SC SC ?? ?? UR ?? ?? ?? ??
-xinput set-button-map 11  1  1  3  4  5  6  7  2  9 10 11 12
+#                          LL UL LR SC SC ?? ?? UR ?? ?? ?? ??
+xinput set-button-map "$KID"  1  1  3  4  5  6  7  2  9 10 11 12
+# Speed up cursor movement/sensitivity
+xinput set-prop "$KID" 'Device Accel Constant Deceleration' 0.8
