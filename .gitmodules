@@ -1,0 +1,3 @@
+[submodule "home/bin/display-visor"]
+	path = home/bin/display-visor
+	url = git@github.com:harterrt/display-visor.git
