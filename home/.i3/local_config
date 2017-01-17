@@ -1,6 +1,9 @@
 # Change screen resolution
 xrandr --output eDP1 --mode 1920x1080
 
+# Handle external monitors via display-visor (may require reinstall)
+display-visor -l
+
 # Disable tap to click on trackpad
 synclient MaxTapTime=0
 
