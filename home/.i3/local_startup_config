@@ -1,0 +1,5 @@
+# Handle external monitors via display-visor (may require reinstall)
+display-visor -l
+
+# Start synergy server
+synergys
