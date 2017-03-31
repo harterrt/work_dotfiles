@@ -2,3 +2,7 @@ alias scan='sudo iwlist wlp4s0 scan'
 synclient VertEdgeScroll=0
 synclient MaxTapTime=0
 
+alias apip=$HOME/anaconda2/bin/pip
+export SPARK_HOME=$HOME/bin/spark-2.0.0-bin-hadoop2.7
+
+lpoptions -d MFCL2700DW
