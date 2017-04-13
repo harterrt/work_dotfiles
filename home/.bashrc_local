@@ -6,3 +6,8 @@ alias apip=$HOME/anaconda2/bin/pip
 export SPARK_HOME=$HOME/bin/spark-2.0.0-bin-hadoop2.7
 
 lpoptions -d MFCL2700DW > /dev/null
+
+# For running tests that depend on spark
+export PYTHONPATH=/home/harterrt/bin/spark-2.0.0-bin-hadoop2.7/python/
+export SPARK_HOME=/home/harterrt/bin/spark-2.0.0-bin-hadoop2.7/
+
