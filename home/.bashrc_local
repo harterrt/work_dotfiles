@@ -13,4 +13,3 @@ export SPARK_HOME=/home/harterrt/bin/spark-2.0.0-bin-hadoop2.7/
 
 # added by Miniconda2 4.3.11 installer
 export PATH="/home/harterrt/miniconda2/bin:$PATH"
-
