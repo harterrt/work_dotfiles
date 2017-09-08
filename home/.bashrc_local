@@ -8,8 +8,11 @@ export SPARK_HOME=$HOME/bin/spark-2.0.0-bin-hadoop2.7
 lpoptions -d MFCL2700DW > /dev/null
 
 # For running tests that depend on spark
-export PYTHONPATH=/home/harterrt/bin/spark-2.0.0-bin-hadoop2.7/python/
-export SPARK_HOME=/home/harterrt/bin/spark-2.0.0-bin-hadoop2.7/
+export PYTHONPATH=/home/harterrt/bin/spark-2.0.2-bin-hadoop2.7/python/
+export SPARK_HOME=/home/harterrt/bin/spark-2.0.2-bin-hadoop2.7/
 
 # added by Miniconda2 4.3.11 installer
 export PATH="/home/harterrt/miniconda2/bin:$PATH"
+
+# Add Bugzilla API key
+export BUGZILLA_API_KEY="/home/harterrt/Private/.bugzilla_api"
