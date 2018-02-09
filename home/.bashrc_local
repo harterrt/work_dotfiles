@@ -26,3 +26,5 @@ if [ -f '/home/harterrt/bin/google-cloud-sdk/path.bash.inc' ]; then source '/hom
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/home/harterrt/bin/google-cloud-sdk/completion.bash.inc' ]; then source '/home/harterrt/bin/google-cloud-sdk/completion.bash.inc'; fi
+
+# alias bfb="aws --profile bfb"
