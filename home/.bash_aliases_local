@@ -1,3 +1,1 @@
-cliqz_txp="s3://telemetry-parquet/harter/cliqz_testpilottest/v1/"
-cliqz_search="s3://telemetry-parquet/harter/cliqz_search/v1/"
-cliqz_tp="s3://telemetry-parquet/harter/cliqz_testpilot/v1/"
+alias nm-restart="sudo service network-manager restart"
